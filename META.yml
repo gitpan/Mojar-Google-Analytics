@@ -1,0 +1,33 @@
+---
+abstract: 'Fetch Google Analytics reporting data'
+author:
+  - 'Nic Sandfield <niczero@cpan.org>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '6.3'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Mojar-Google-Analytics
+no_index:
+  directory:
+    - t
+    - inc
+    - data
+    - test
+requires:
+  Crypt::OpenSSL::RSA: '0.28'
+  IO::Socket::SSL: '1.75'
+  Mojar: '2'
+  Mojolicious: '5'
+  perl: '5.014001'
+resources:
+  bugtracker: http://github.com/niczero/mojar-google-analytics/issues
+  homepage: http://niczero.github.io/mojar
+  license: http://www.opensource.org/licenses/artistic-license-2.0
+  repository: http://github.com/niczero/mojar-google-analytics
+version: 1.053
